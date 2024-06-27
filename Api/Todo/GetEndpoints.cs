@@ -2,7 +2,7 @@ using Integration.Todo;
 
 namespace Api.Todo;
 
-public static class GetTodoEndpoints
+public static class GetEndpoints
 {
     public static RouteGroupBuilder AddGetTodos(this RouteGroupBuilder group)
     {

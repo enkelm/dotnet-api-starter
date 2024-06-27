@@ -1,6 +1,6 @@
 namespace Infrastructure.Common;
 
-public abstract class GetRequest
+public abstract class QueryRequest
 {
     public abstract record SingleResponse;
 

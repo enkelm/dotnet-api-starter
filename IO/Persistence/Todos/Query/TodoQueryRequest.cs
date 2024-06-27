@@ -1,8 +1,8 @@
 using Infrastructure.Common;
 
-namespace Infrastructure.Persistence.Todos.Get;
+namespace Infrastructure.Persistence.Todos.Query;
 
-public abstract class TodoGetRequest : GetRequest
+public abstract class TodoQueryRequest : QueryRequest
 {
     public record ById(int Id) : SingleResponse;
 

@@ -6,7 +6,9 @@ public static class TodoEndpoints
     {
         var routeGroup = app.MapGroup("/todos");
 
-        routeGroup.AddGetTodos();
+        routeGroup
+            .AddGetTodos()
+            .AddPostTodos();
 
         return app;
     }
